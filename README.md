@@ -48,9 +48,8 @@ npm start
 
 ## ⚙️ Configuration (`.env`)
 ```env
-DISCORD_TOKEN=your-bot-token
-CLIENT_ID=bot-client-id
-GUILD_ID=test-server-id
+DISCORD_BOT_TOKEN=your-bot-token
+DISCORD_BOT_ID=bot-client-id
 ```
 
 ---
@@ -58,10 +57,9 @@ GUILD_ID=test-server-id
 ## 📂 Project Structure
 ```
 vespero-bot/
-├── commands/       # Command files
-├── events/         # Event listeners
-├── utils/          # Helper functions
-├── index.js        # Bot entry point
+├── src/structures/commands/       # Command files
+├── src/structures/events/         # Event listeners
+├── app.js        # Bot entry point
 ├── package.json
 └── .env.example
 ```
@@ -70,10 +68,7 @@ vespero-bot/
 
 ## 🖼 Example Commands
 ```
-/play [song name/url]  → Plays music
-/ban @user             → Bans a user
-/meme                  → Sends a random meme
-/poll "Question" "A" "B" → Creates a poll
+TO BE ADDED
 ```
 
 ---
